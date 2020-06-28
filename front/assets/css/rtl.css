@@ -1,0 +1,310 @@
+@font-face {
+    font-family: Vazir;
+    src: url('../../../fonts/Vazir.eot');
+    src: url('../../../fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+    url('../../../fonts/Vazir.woff') format('woff'),
+    url('../../../fonts/Vazir.ttf') format('truetype');
+    font-weight: normal;
+}
+
+input, a, h1, h2, h3, h4, h5, h6, button, p, li, ul, span {
+    font-family: Vazir !important;
+}
+
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: Vazir;
+    background: #ffffff;
+}
+
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: unset;
+    box-shadow: 0px 2px 11px 3px #e8e8e8b8;
+}
+
+.card1:hover {
+    background: url('../img/gallery/popular1.png');
+    background-size: cover;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 22rem;
+    height: 400px;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    color: black;
+}
+
+.flip-card-back {
+    background: url('../img/featured-box-bg-1.jpg');
+    color: white;
+    transform: rotateY(180deg);
+    background-size: cover;
+    padding: 100px 40px 0 40px;
+    box-shadow: 0px 0px 0px 4000px rgba(0, 0, 0, 0.7) inset;
+}
+
+.flip-card-back > h3 {
+    color: #fff;
+}
+
+.flip-card-back > p {
+    color: #fff;
+}
+
+.lineme {
+    border-top: 1px solid #fff;
+    /*padding: 0px;*/
+    padding: 0 100px;
+    /*animation-name: example;*/
+    /*animation-duration: 2s;*/
+}
+
+/*@keyframes example {*/
+/*    from {padding: 0px;}*/
+/*    to {padding: 0 100px;}*/
+/*}*/
+
+
+.single-popular-items {
+    border: 1px solid #ebebeb;
+    box-shadow: 0px 1px 11px 3px #eeeeee;
+}
+
+.section-tittle h2 {
+    color: #61c579;
+}
+
+.popular-items .single-popular-items .popular-caption span {
+    padding-bottom: 20px;
+}
+
+.popular-img img {
+    max-height: 200px;
+}
+
+.footer-area {
+    background: #e6fdec;
+    padding: 60px 0 0 0;
+}
+
+.footer-area .footer-pera p {
+    font-size: 12px;
+    text-align: justify;
+}
+
+.footer-area .footer-logo {
+    margin-bottom: 8px;
+}
+
+.footer-tittle li {
+    font-size: 12px;
+}
+
+.footer-area .footer-tittle ul li {
+    color: #176127;
+}
+
+button {
+    letter-spacing: unset !important;
+}
+
+.slider-height2 {
+    min-height: 150px !important;
+}
+
+.section-padding {
+    padding-top: 40px;
+    /*padding-bottom: 120px;*/
+}
+
+.ali-box-padding {
+    margin: 20px;
+    background: #fff;
+}
+
+.ali-row-back {
+    background: #fff;
+    margin: 30px;
+    padding: 15px;
+}
+
+.ali-padding-15 {
+    padding: 15px 30px;
+}
+
+.ali-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ali-nav-category{
+    background: #f5f5f5;
+    margin: 30px;
+    padding: 3px;
+    color: #0a0a0a;
+    display: table;
+}
+
+.breadcrumb {
+     background-color: unset;
+    margin-bottom: 0;
+}
+
+.breadcrumb>li>a{
+    color: rgba(10, 10, 10, 0.7) !important;
+}
+
+.breadcrumb>li>a :hover{
+    color: rgb(0, 0, 0) !important;
+}
+
+hr {
+    border-top: 1px solid rgb(12, 12, 12);
+}
+
+.bg-gray {
+    background: #61c579;
+}
+
+.ali-padding-2040 {
+padding: 20px 40px;
+}
+
+.ali-box-style{
+    border-right: 4px solid #61c579 !important;
+}
+
+.nav-tabs .nav-link {
+    /*border: 1px solid transparent;*/
+     border-top-left-radius: 0;
+     border-top-right-radius: 0;
+}
+
+/*.btn {*/
+/*    background: #c54030;*/
+/*}*/
+
+.basket-title{
+    background: #5db96a;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 8px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.btn-success, .btn-success:hover, .btn-success:active, .btn-success:focus {
+    background-color: #61c579 !important;
+}
+
+.ali-modal{
+    z-index: 9999;
+    top: 100px;
+}
+
+.ali-btn-answer{
+    float: left;
+    cursor: pointer;
+    padding: 5px 20px;
+    border-radius: unset;
+    margin: 10px;
+    font-size: smaller;
+    background: #7ac561;
+    color: white !important;
+}
+
+.ali-comment-box{
+    box-shadow: 0px 0px 13px 0px #c1c3c1;
+    margin-bottom: 20px;
+}
+
+.ali-cmt-answer-box{
+    list-style: none;
+    background: #f3f3f3;
+    border: 1px dashed #bdbdbd;
+}
+
+.ali-cmt-answer-padding{
+    list-style: none;
+    padding: 20px 20px;
+}
+
+.ali-btn {
+    margin-top: 20px;
+    background: #61c579;
+    font-family: "Josefin Sans",sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    padding: 20px 20px;
+    display: inline-block;
+    line-height: 0;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+    z-index: 1;
+    -moz-user-select: none;
+    border: 0;
+    overflow: hidden;
+}
+
+.ali-btn-danger{
+    background: #e45151;
+    font-family: "Josefin Sans",sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.03em;
+    padding: 14px 10px;
+    line-height: 0;
+    cursor: pointer;
+    -moz-user-select: none;
+    border: 0;
+}
+
+.ali-btn-success{
+    background: #4ac544;
+    font-family: "Josefin Sans",sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.03em;
+    padding: 14px 10px;
+    line-height: 0;
+    cursor: pointer;
+    -moz-user-select: none;
+    border: 0;
+}
+
+.flip-card-front img{
+    width: 100% !important;
+    height: auto !important;
+ }
