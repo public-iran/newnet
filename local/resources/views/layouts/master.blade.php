@@ -74,7 +74,7 @@
                                         <li><a href="#"> جزئیات محصول</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#">بلاگ</a>
+                                <li><a href="#">1بلاگ</a>
                                     <ul class="submenu">
                                         <li><a href="blog.html">بلاگ</a></li>
                                         <li><a href="blog-details.html">جزئیات بلاگ</a></li>
